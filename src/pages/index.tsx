@@ -163,8 +163,8 @@ const Home: NextPage = () => {
             <div className='row'>
               <div className='col-7'>
                 <div className='homeBanner_content'>
-                  <h1>QueSon's Cassava Noodle</h1>
-                  <p>The Cassava Noodle Craft Village in Quang Nam is not only a unique culinary symbol but also an essential part of the region's cultural and historical heritage. The blend of traditional production techniques and innovation in serving the dish has created an exciting experience for tourists and serves as a reminder of the value of conserving and developing culinary heritage.</p>
+                  <h1>{"QueSon's Cassava Noodle"}</h1>
+                  <p>{"The Cassava Noodle Craft Village in Quang Nam is not only a unique culinary symbol but also an essential part of the region's cultural and historical heritage. The blend of traditional production techniques and innovation in serving the dish has created an exciting experience for tourists and serves as a reminder of the value of conserving and developing culinary heritage."}</p>
                   <Button type='cta'>Contact us</Button>
                 </div>
               </div>

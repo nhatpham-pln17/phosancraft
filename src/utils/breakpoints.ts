@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
 // https://bulma.io/documentation/overview/responsiveness/
 import { CSSInterpolation } from '@emotion/css';
 import { css, SerializedStyles } from '@emotion/react';
