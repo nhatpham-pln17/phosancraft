@@ -6,7 +6,7 @@ import Image from 'next/image';
 import "swiper/css";
 import {Swiper, SwiperSlide} from 'swiper/react';
 import {Navigation, Pagination, Autoplay} from 'swiper/modules';
-
+import ProductCard from '@/components/productCard';
 
 
 const HomePageStyled = styled.div`
@@ -95,9 +95,10 @@ const HomePageStyled = styled.div`
       .heading_title{
         font-weight: 700;
         font-size: 1.75rem;
+        color: #0C1D10;
       }
       .heading_seeAll{
-        color: #707070;
+        color: #0C1D10;
         text-decoration: underline;
       }
     }
@@ -223,7 +224,50 @@ const Home: NextPage = () => {
           </div>
         </section>
         <section className='featuredProducts'>
-          <div className='container'></div>
+          <div className='container'>
+            <div className='featuredProducts_heading'>
+              <div className='heading_title'> Featured Products</div>
+              <div className='heading_seeAll'>See all</div>
+            </div>
+            <div className='row'>
+              <div className='col-3'>
+                <ProductCard 
+                img = "/Images/product/phosannguyenchat-400-35.png"
+                name = "Phở sắn"
+                price = "35.000 đ"
+                weight="400gr"
+                itemurl="phosannguyenchat_400"
+                />
+              </div>
+              <div className='col-3'>
+                <ProductCard 
+                img = "/Images/product/banhtrangsan-150-15.png"
+                name = "Bánh tráng sắn"
+                price = "15.000 đ"
+                weight="150gr"
+                itemurl="banhtrangsan_150"
+                />
+              </div>
+              <div className='col-3'>
+                <ProductCard 
+                img = "/Images/product/botsannguyenchat-1kg-50.png"
+                name = "Bột sắn nguyên chất"
+                price = "50.000 đ"
+                weight="1kg"
+                itemurl="botsannguyenchat_1"
+                />
+              </div>
+              <div className='col-3'>
+                <ProductCard 
+                img = "/Images/product/phosancuden-250-30.png"
+                name = "Phở sắn củ dền"
+                price = "30.000 đ"
+                weight="250gr"
+                itemurl="phosancuden_250"
+                />
+              </div>
+            </div>
+          </div>
         </section>
       </HomePageStyled>
     </MasterLayout>
