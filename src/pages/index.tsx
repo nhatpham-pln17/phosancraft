@@ -31,7 +31,7 @@ const HomePageStyled = styled.div`
       left: 0;
       right: 0;
       top: 0;
-      padding: 40px 80px;
+      padding: 20px 40px;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -45,7 +45,7 @@ const HomePageStyled = styled.div`
       }
       p{
         color: #707070;
-        font-size: 1.25rem;
+        font-size: 1.1rem;
       }
     }
     &_phoneBtn{
@@ -54,7 +54,7 @@ const HomePageStyled = styled.div`
       padding: 18px;
       display: flex;
       color: white;
-      font-size: 1.25rem;
+      font-size: 1.2rem;
     }
   }
   .promotionsSlider{
@@ -158,7 +158,7 @@ const Home: NextPage = () => {
   return(
     <MasterLayout>
       <HomePageStyled>
-        <div className='homeBanner'>
+        <section className='homeBanner'>
           <div className='container'>
             <div className='row'>
               <div className='col-7'>
@@ -170,12 +170,33 @@ const Home: NextPage = () => {
               </div>
               <div className='col-3'>
                 <div className='homeBanner_coverImg'>
-                  <Image src="/Images/homebanner.jpg" alt="" width={450} height={300} />
+                  <Image src="/Images/homeBanner.jpeg" alt="" width={450} height={300} />
                 </div>
               </div>
             </div>
           </div>
-        </div>
+        </section>
+        <section className='contactPhone'>
+          <div className='container position-relative'>
+            <div className='contactPhone_container'>
+              <div className='contactPhone_content'>
+                <h2>{"Cassava Noodle - Craft Village in Quang Nam"}</h2>
+                <p>{"Hon Tau Street,Thuan An Hamlet, Dong Phu Commune, Que Son District, Quang Nam Province"}</p>
+              </div>
+              <div className='contactPhone_phoneBtn'>
+                <a href="tell: +84988846044">
+                  <div className='d-flex align-items-center'>
+                  <Image src="/Images/call.png" width={80} height={80} alt='' />
+                    <div className='mx-4'>
+                      <div className='fw-bold'>Liên hệ ngay</div>
+                      <div>{"0988.846.044"}</div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
       </HomePageStyled>
     </MasterLayout>
   );

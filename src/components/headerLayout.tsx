@@ -7,7 +7,7 @@ import Link from "next/link";
 const HeaderLayoutStyled = styled.header`
   background-color: #FFF6E3;
   .navbar{
-    padding: 0px 10px;
+    padding: 10px 10px;
     &_logo{
       height: auto;
       cursor: pointer;
