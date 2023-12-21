@@ -3,6 +3,11 @@ import { MasterLayout } from '@/components/masterLayout';
 import styled from '@emotion/styled';
 import { NextPage } from 'next';
 import Image from 'next/image';
+import "swiper/css";
+import {Swiper, SwiperSlide} from 'swiper/react';
+import {Navigation, Pagination, Autoplay} from 'swiper/modules';
+
+
 
 const HomePageStyled = styled.div`
   .homeBanner{
@@ -31,7 +36,7 @@ const HomePageStyled = styled.div`
       left: 0;
       right: 0;
       top: 0;
-      padding: 20px 40px;
+      padding: 30px 40px;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -59,6 +64,7 @@ const HomePageStyled = styled.div`
   }
   .promotionsSlider{
     padding: 175px 0 0;
+    align-content: center;
     .swiper-slide{
       margin-bottom: 40px;
       img {
@@ -72,7 +78,6 @@ const HomePageStyled = styled.div`
       .swiper-pagination-bullet{
         width: 16px;
         height: 16px;
-        margin: 0 8px;
         background-color: #a5a5a5;
         &-active{
           background-color: #2A6538;
@@ -196,6 +201,29 @@ const Home: NextPage = () => {
               </div>
             </div>
           </div>
+        </section>
+        <section className='promotionsSlider'>
+          <div className='container'>
+            <Swiper
+            pagination={true}
+            loop={true}
+            autoplay={true}
+            modules={[Pagination, Autoplay]}
+            >
+              <SwiperSlide>
+                <Image src="/images/allProducts.jpeg" width={1115} height={470} alt='' />
+              </SwiperSlide>
+              <SwiperSlide>
+                <Image src="/images/cassavasunny.png" width={1115} height={470} alt='' />
+              </SwiperSlide>
+              <SwiperSlide>
+                <Image src="/images/rawmetiral.jpeg" width={1115} height={470} alt='' />
+              </SwiperSlide>
+            </Swiper>
+          </div>
+        </section>
+        <section className='featuredProducts'>
+          <div className='container'></div>
         </section>
       </HomePageStyled>
     </MasterLayout>
