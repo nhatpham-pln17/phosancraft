@@ -61,7 +61,7 @@ export const ProductCard = (
           <span className="productPrice">{props.price}</span>
           <span className="productWeight">&nbsp;({props.weight})</span>
         </div>
-        <Button className="mt-3" size="small" onClick={(event)=>event.stopPropagation()}>Add cart</Button>
+        <Button className="mt-3" size="small" onClick={(event)=>event.stopPropagation()}>Buy now</Button>
       </ProductCardStyled>
     </Link>
   )
