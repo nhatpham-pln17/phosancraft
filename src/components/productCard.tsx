@@ -1,6 +1,7 @@
 import styled from '@emotion/styled';
 import Link from 'next/link';
 import Button from './button';
+import Image from 'next/image';
 
 const ProductCardStyled = styled.div`
   padding: 16px;
@@ -55,7 +56,7 @@ export const ProductCard = (
       href={"/products/"+ props.itemurl}
     >
       <ProductCardStyled>
-        <img className="productImg" src={props.img} width={270} height={270} alt=''/>
+        <Image className="productImg" src={props.img} width={270} height={270} alt=''/>
         <div className="productName">{props.name}</div>
         <div>
           <span className="productPrice">{props.price}</span>
