@@ -212,13 +212,13 @@ const Home: NextPage = () => {
             modules={[Pagination, Autoplay]}
             >
               <SwiperSlide>
-                <Image src="/images/allProducts.jpeg" width={1115} height={470} alt='' />
+                <Image src="/Images/allProducts.jpeg" width={1115} height={470} alt='' />
               </SwiperSlide>
               <SwiperSlide>
-                <Image src="/images/cassavasunny.png" width={1115} height={470} alt='' />
+                <Image src="/Images/cassavasunny.png" width={1115} height={470} alt='' />
               </SwiperSlide>
               <SwiperSlide>
-                <Image src="/images/rawmetiral.jpeg" width={1115} height={470} alt='' />
+                <Image src="/Images/rawmetiral.jpeg" width={1115} height={470} alt='' />
               </SwiperSlide>
             </Swiper>
           </div>
