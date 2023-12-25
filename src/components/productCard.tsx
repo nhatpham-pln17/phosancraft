@@ -53,7 +53,7 @@ export const ProductCard = (
 )=>{
   return(
     <Link
-      href={"/products/"+ props.itemurl}
+      href={props.itemurl}
     >
       <ProductCardStyled>
         <Image className="productImg" src={props.img} width={270} height={270} alt=''/>

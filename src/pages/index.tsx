@@ -7,6 +7,7 @@ import "swiper/css";
 import {Swiper, SwiperSlide} from 'swiper/react';
 import {Navigation, Pagination, Autoplay} from 'swiper/modules';
 import ProductCard from '@/components/productCard';
+import Link from 'next/link';
 
 
 const HomePageStyled = styled.div`
@@ -227,7 +228,9 @@ const Home: NextPage = () => {
           <div className='container'>
             <div className='featuredProducts_heading'>
               <div className='heading_title'> Featured Products</div>
-              <div className='heading_seeAll'>See all</div>
+              <div className='heading_seeAll'>
+                <Link href={"/products"}>See all</Link>
+              </div>
             </div>
             <div className='row'>
               <div className='col-3'>
@@ -236,7 +239,7 @@ const Home: NextPage = () => {
                 name = "Phở sắn"
                 price = "35.000 đ"
                 weight="400gr"
-                itemurl="phosannguyenchat_400"
+                itemurl="https://caromi.vn/product/pho-san-nguyen-chat-tui-400-g/"
                 />
               </div>
               <div className='col-3'>
@@ -245,7 +248,7 @@ const Home: NextPage = () => {
                 name = "Bánh tráng sắn"
                 price = "15.000 đ"
                 weight="150gr"
-                itemurl="banhtrangsan_150"
+                itemurl="https://caromi.vn/product/banh-trang-san-bot-loc-2/"
                 />
               </div>
               <div className='col-3'>
@@ -254,7 +257,7 @@ const Home: NextPage = () => {
                 name = "Bột sắn nguyên chất"
                 price = "50.000 đ"
                 weight="1kg"
-                itemurl="botsannguyenchat_1"
+                itemurl="https://caromi.vn/product/bot-san-bot-nang-5kg/"
                 />
               </div>
               <div className='col-3'>
@@ -263,7 +266,7 @@ const Home: NextPage = () => {
                 name = "Phở sắn củ dền"
                 price = "30.000 đ"
                 weight="250gr"
-                itemurl="phosancuden_250"
+                itemurl="https://caromi.vn/product/pho-san-cu-den-caromi/"
                 />
               </div>
             </div>
