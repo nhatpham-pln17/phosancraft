@@ -17,19 +17,19 @@ const ProductCardStyled = styled.div`
   }
   .productName{
     color: #122B18;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 600;
     margin-top: 16px;
     margin-bottom: 4px;
   }
   .productWeight{
     color: #183A20;
-    font-size: 1.25rem;
+    font-size: 1.125rem;
     font-weight: 300;
   }
   .productPrice{
     color: #183A20;
-    font-size: 1.25rem;
+    font-size: 1.125rem;
     font-weight: 300;
   }
   &:hover{

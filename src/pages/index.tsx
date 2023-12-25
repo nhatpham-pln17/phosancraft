@@ -236,7 +236,7 @@ const Home: NextPage = () => {
               <div className='col-3'>
                 <ProductCard 
                 img = "/Images/product/phosannguyenchat-400-35.png"
-                name = "Phở sắn"
+                name = "Original Cassava Noodles"
                 price = "35.000 đ"
                 weight="400gr"
                 itemurl="https://caromi.vn/product/pho-san-nguyen-chat-tui-400-g/"

@@ -24,13 +24,13 @@ const ProductsPage = () => {
       <ProductsPageStyled>
         <div className='container'>
           <div className='productGroup'>
-            <div className='categoryName'>Phở sắn</div>
+            <div className='categoryName'>Cassava Noodles</div>
             <div className='productList'>
               <div className='row'>
                 <div className='col-3'>
                   <ProductCard 
                   img = "/Images/product/phosannguyenchat-400-35.png"
-                  name = "Phở sắn nguyên chất"
+                  name = "Original Cassava Noodles"
                   price = "35.000 đ"
                   weight="400gr"
                   itemurl="https://caromi.vn/product/pho-san-nguyen-chat-tui-400-g/"
@@ -39,7 +39,7 @@ const ProductsPage = () => {
                 <div className='col-3'>
                   <ProductCard 
                   img = "/Images/product/phosanhopgiay-250-28.png"
-                  name = "Phở sắn hộp giấy"
+                  name = "Original Cassava Noodles"
                   price = "28.000 đ"
                   weight="250gr"
                   itemurl="https://caromi.vn/product/pho-san-nguyen-chat-tui-400-g/"
@@ -48,7 +48,7 @@ const ProductsPage = () => {
                 <div className='col-3'>
                   <ProductCard 
                   img = "/Images/product/phosancarot-250-30.png"
-                  name = "Phở sắn cà rốt"
+                  name = "Cassava Noodlesx Carrots"
                   price = "30.000 đ"
                   weight="250gr"
                   itemurl="https://caromi.vn/product/pho-san-ca-rot-goi-250g/"
@@ -57,7 +57,7 @@ const ProductsPage = () => {
                 <div className='col-3'>
                   <ProductCard 
                   img = "/Images/product/phosancuden-250-30.png"
-                  name = "Phở sắn củ dền"
+                  name = "Cassava Noodles Beetroot"
                   price = "30.000 đ"
                   weight="250gr"
                   itemurl="https://caromi.vn/product/pho-san-cu-den-caromi/"
@@ -67,13 +67,13 @@ const ProductsPage = () => {
             </div>
           </div>
           <div className='productGroup'>
-            <div className='categoryName'>Bánh tráng sắn</div>
+            <div className='categoryName'>Original Cassava Wrapper</div>
             <div className='productList'>
               <div className='row'>
                 <div className='col-3'>
                   <ProductCard 
                   img = "/Images/product/banhtrangsan-150-15.png"
-                  name = "Bánh tráng sắn"
+                  name = "Cassava Wrapper"
                   price = "15.000 đ"
                   weight="150gr"
                   itemurl="https://caromi.vn/product/banh-trang-san-bot-loc-2/"
@@ -82,7 +82,7 @@ const ProductsPage = () => {
                 <div className='col-3'>
                   <ProductCard 
                   img = "/Images/product/banhtrangsan-200-25.png"
-                  name = "Bánh tráng sắn"
+                  name = "Cassava Wrapper"
                   price = "25.000 đ"
                   weight="200gr"
                   itemurl="https://caromi.vn/product/banh-trang-san-bot-loc-200g/"
@@ -92,13 +92,13 @@ const ProductsPage = () => {
             </div>
           </div>
           <div className='productGroup'>
-            <div className='categoryName'>Bột sắn</div>
+            <div className='categoryName'>Cassava Flour</div>
             <div className='productList'>
               <div className='row'>
                 <div className='col-3'>
                   <ProductCard 
                   img = "/Images/product/botsannguyenchat-1kg-50.png"
-                  name = "Bột sắn nguyên chất"
+                  name = "Original Cassava Flour"
                   price = "50.000 đ"
                   weight="1kg"
                   itemurl="https://caromi.vn/product/bot-san-bot-nang-5kg/"
@@ -107,7 +107,7 @@ const ProductsPage = () => {
                 <div className='col-3'>
                   <ProductCard 
                   img = "/Images/product/tinhbotsan-500-35.png"
-                  name = "Bột năng"
+                  name = "Tapioca Flour"
                   price = "25.000 đ"
                   weight="500gr"
                   itemurl="https://caromi.vn/product/bot-nang-caromi-virgin-500g/"
@@ -116,7 +116,7 @@ const ProductsPage = () => {
                 <div className='col-3'>
                   <ProductCard 
                   img = "/Images/product/tinhbotsan-1-50.png"
-                  name = "Bột năng"
+                  name = "Tapioca Flour"
                   price = "50.000 đ"
                   weight="1kg"
                   itemurl="https://caromi.vn/product/bot-nang-virgin-1kg/"
@@ -126,7 +126,7 @@ const ProductsPage = () => {
             </div>
           </div>
           <div className='productGroup'>
-            <div className='categoryName'>Sản phẩm khác</div>
+            <div className='categoryName'>Others products</div>
             <div className='productList'>
               <div className='row'>
                 <div className='col-3'>
