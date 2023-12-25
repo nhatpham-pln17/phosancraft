@@ -3,6 +3,7 @@ import { MasterLayout } from "@/components/masterLayout";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faClock, faUser } from "@fortawesome/free-regular-svg-icons";
 import Button from "@/components/button";
+import Link from "next/link";
 
 const ContactPageStyled = styled.div`
   padding: 0 0 40px;
@@ -88,8 +89,8 @@ const ContactPage = ()=>{
                   <div className="name2"> - Craft Village in Quang Nam - </div> 
                   <div>{"The Cassava Noodle Craft Village in Quang Nam is not only a unique culinary symbol but also an essential part of the region's cultural and historical heritage. The blend of traditional production techniques and innovation in serving the dish has created an exciting experience for tourists and serves as a reminder of the value of conserving and developing culinary heritage."}</div>
                   <div><b>Address: </b> Hon Tau Street,Thuan An Hamlet, Dong Phu Commune, Que Son District, Quang Nam Province</div>
-                  <div><b>Website: </b> https://caromi.vn</div>
-                  <div><b>Googlemap: </b> https://maps.app.goo.gl/jAoP9RtvrNMzZprP7</div>
+                  <div><b>Website: </b> <Link href={"https://caromi.vn"}> https://caromi.vn</Link></div>
+                  <div><b>Googlemap: </b> <Link href={"https://maps.app.goo.gl/jAoP9RtvrNMzZprP7"}> https://maps.app.goo.gl/jAoP9RtvrNMzZprP7</Link></div>
                 </div>
               </div>
             </div>
