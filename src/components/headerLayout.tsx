@@ -62,7 +62,7 @@ export const HeaderLayout = ({
           <div className={cx('navbarLink', {
             '-active': activeButton == 'history'
           })}>
-            <Link href="/">History</Link>
+            <Link href="/history">History</Link>
           </div>
           <div className={cx('navbarLink', {
             '-active': activeButton == 'contact'

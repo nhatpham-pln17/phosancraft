@@ -75,7 +75,7 @@ const ContactPage = ()=>{
           <div className="container">
             <h1>CONTACT INFO</h1>
             <div className="updateInfo">
-              <div className="me-4"><FontAwesomeIcon icon={faClock}/> 01/10/2023</div>
+              <div className="me-4"><FontAwesomeIcon icon={faClock}/> 01/08/2023</div>
               <div><FontAwesomeIcon icon={faUser}/> Pham Trong Nhan</div>
             </div>
           </div>
