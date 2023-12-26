@@ -245,7 +245,7 @@ const Home: NextPage = () => {
               <div className='col-3'>
                 <ProductCard 
                 img = "/Images/product/banhtrangsan-150-15.png"
-                name = "Bánh tráng sắn"
+                name = "Cassava Wrapper"
                 price = "15.000 đ"
                 weight="150gr"
                 itemurl="https://caromi.vn/product/banh-trang-san-bot-loc-2/"
@@ -254,7 +254,7 @@ const Home: NextPage = () => {
               <div className='col-3'>
                 <ProductCard 
                 img = "/Images/product/botsannguyenchat-1kg-50.png"
-                name = "Bột sắn nguyên chất"
+                name = "Original Cassava Flour"
                 price = "50.000 đ"
                 weight="1kg"
                 itemurl="https://caromi.vn/product/bot-san-bot-nang-5kg/"
@@ -263,7 +263,7 @@ const Home: NextPage = () => {
               <div className='col-3'>
                 <ProductCard 
                 img = "/Images/product/phosancuden-250-30.png"
-                name = "Phở sắn củ dền"
+                name = "Cassava Noodles Beetroot"
                 price = "30.000 đ"
                 weight="250gr"
                 itemurl="https://caromi.vn/product/pho-san-cu-den-caromi/"
