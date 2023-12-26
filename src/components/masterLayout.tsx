@@ -2,6 +2,7 @@ import React, {PropsWithChildren} from "react";
 import styled from '@emotion/styled';
 import HeaderLayout, { HeaderLayoutProps } from "./headerLayout";
 import { MetaTag } from "./metaTag";
+import FooterLayout from "./footerLayout";
 
 const MasterLayoutStyled = styled.div`
   display: flex;
@@ -22,6 +23,7 @@ export const MasterLayout = ({
       <main>
         {children}
       </main>
+      <FooterLayout/>
     </MasterLayoutStyled>
   </React.Fragment>
 );
