@@ -195,7 +195,7 @@ const Home: NextPage = () => {
                   <div className='d-flex align-items-center'>
                   <Image src="/Images/call.png" width={80} height={80} alt='' />
                     <div className='mx-4'>
-                      <div className='fw-bold'>Liên hệ ngay</div>
+                      <div className='fw-bold'>Contact now</div>
                       <div>{"0988.846.044"}</div>
                     </div>
                   </div>
