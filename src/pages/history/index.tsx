@@ -87,26 +87,7 @@ const HistoryPage = () => {
             <p>
               {" Early Stage: The history of Cassava Noodles in Quang Nam can be traced back hundreds of years. This dish originated from the local people's need to utilize available resources from the sea and field crabs. Initially, cassava noodles and field crabs were processed simply, used as a family dish, and offered during traditional festivals."}
             </p>
-            <section className='promotionsSlider'>
-              <div className='container'>
-                <Swiper
-                pagination={true}
-                loop={true}
-                autoplay={true}
-                modules={[Pagination, Autoplay]}
-                >
-                  <SwiperSlide>
-                    <Image src="/Images/allProducts.jpeg" width={1115} height={470} alt='' />
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <Image src="/Images/cassavasunny.png" width={1115} height={470} alt='' />
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <Image src="/Images/rawmetiral.jpeg" width={1115} height={470} alt='' />
-                  </SwiperSlide>
-                </Swiper>
-              </div>
-            </section>
+            
             <p>
               {"Craft Village Development: Over time, Cassava Noodles became a popular dish in Quang Nam and the surrounding region. The craft village producing Cassava Noodles developed and passed down through generations. Noodle and crab artisans meticulously preserved production techniques, creating thin, chewy noodles, and delicious, flavorful field crabs."}
             </p>
